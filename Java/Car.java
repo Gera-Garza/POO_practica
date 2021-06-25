@@ -8,10 +8,6 @@ class Car {
         this.license = license;
         this.driver = driver;
     }
-<<<<<<< HEAD
-=======
-
->>>>>>> java
     void printDataCar(){
         System.out.println("License: " + license + " Driver: " + driver.name);
     }
