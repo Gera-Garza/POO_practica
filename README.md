@@ -1,11 +1,11 @@
 # General info
-This is the repository for the course of POO with Platzi, here you will see what I consider to be the most used topics and some examples.
+This is the repository for the course of POO with Platzi, here you will see what I consider to be the most used topics and some examples. This is focuse in the paradigm of Object Oriented Programming but there are several more like, imperative, delcarative, procedure, functional, logic and many more but this one is focuse in objects that sends messages to each other.
 
 ## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Setup](#setup)
-* [Resume](#Resume)
+* [Summary](#Summary)
 > * [Encapsulation](#encapsulation)
 > * [Abstraction](#abstraction)
 > * [Inheritance](#inheritance)
@@ -24,9 +24,19 @@ Then in the extensions tab search for **Java Extension Pack** and install it.
 
 Start your proyect creating your files with **.java**  
 
-## Resume
-
-The four most important things in Object Oriented Programming are this ones:
+## Summary
+Like I mention earlier, there are several programming paradigms but the object programming one is focus, in the creation of classes/objects and been modular, to see more clearly was made the UML (Unified Model Language), next I will talk more about it.
+<div></div>
+For example here is how a class should look en UML <img src="image/class.png" height="50">
+In there we can see where it should be the name of the class, the atributes, and operations or methods
+<div></div>
+Then we have associations which means how are they related is one contains another or used another class etc.
+<img src="image/associations.png" height="50">
+<div></div>
+Another important thing is the multiplicity on how are they are related by one to many, many to many etc.
+<img src="image/multiplicity.png" height="50">
+<div></div>
+Now talking about actual programming there are some important points, the four most important things in Object Oriented Programming are this ones:
 1. Encapsulation
 2. Abstraction
 3. Inheritance
@@ -38,7 +48,7 @@ The four most important things in Object Oriented Programming are this ones:
 > when in your code, you repeat more than 3 times you should encapsulate it by making it more modular.
  you can acomplish this by creating functions or classes.
 
-> Here is an example:
+> Here is an example: in Java 1.8
 
 ```java
 public class Shape {
@@ -62,7 +72,7 @@ public class Shape {
 #### Abstraction
 > The abstraction is when you have multiple class and you can abtract some properties they have in common to make it more easy 
 
-> Here is an example:
+> Here is an example: in java 1.8
 
 ```java
 class Car {
@@ -99,7 +109,7 @@ class UberX extends Car{
 > This is similar to [Abstraccion](#abstraction), but the focus here is to give all properties and methods tho the childrens classes.
  you can acomplish this by creating functions or classes.
 
-> Here is an example:
+> Here is an example: in Java 1.8
 
 ```java
 class Car {
@@ -134,7 +144,7 @@ class UberX extends Car{
 #### Polymorphism
 > With this propertie of **polymorphism** you can modify the methods to make it suit for that class.
 
-> Here is an example:
+> Here is an example: in Java 1.8
 
 ```java
 class Car {
