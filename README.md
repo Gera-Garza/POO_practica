@@ -27,14 +27,14 @@ Start your proyect creating your files with **.java**
 ## Summary
 Like I mention earlier, there are several programming paradigms but the object programming one is focus, in the creation of classes/objects and been modular, to see more clearly was made the UML (Unified Model Language), next I will talk more about it.
 <div></div>
-For example here is how a class should look en UML <img src="image/class.png" height="50">
+For example here is how a class should look en UML <img src="image/class.png" height="200">
 In there we can see where it should be the name of the class, the atributes, and operations or methods
 <div></div>
 Then we have associations which means how are they related is one contains another or used another class etc.
-<img src="image/associations.png" height="50">
+<img src="image/associations.png" height="200">
 <div></div>
 Another important thing is the multiplicity on how are they are related by one to many, many to many etc.
-<img src="image/multiplicity.png" height="50">
+<img src="image/multiplicity.png" height="200">
 <div></div>
 Now talking about actual programming there are some important points, the four most important things in Object Oriented Programming are this ones:
 1. Encapsulation
